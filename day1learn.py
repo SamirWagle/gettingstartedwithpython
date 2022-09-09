@@ -5,5 +5,11 @@
 # it auto identifies the data types
 a=5 #int
 b=6.77 #float
-c="abc"
-print(type(c)) #string
+
+
+c = input("Enter a number: ")
+print(type(c))
+name="samir"
+#variable name[0:2] only displays characters from 0to 2
+cut=name[2:5] 
+print(cut)
